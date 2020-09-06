@@ -1,2 +1,6 @@
-# old_but_gold___js_charts23
-Old but Gold - A series of very old projects, releasing to the wild public: Table to Charts jQuery plugin
+# old but gold
+Old but Gold - A series of very old projects, releasing to the wild public. 
+
+## Table charts jQuery plugin
+
+Around 6 years ago, maybe i'm sure it's more, i created a jquery plugin which uses jCanvas to create charts from usual tables. 

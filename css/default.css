@@ -1,0 +1,76 @@
+
+html, body {
+	font-family: Arial;
+	font-size: 0.85em;
+	color: #000;
+	background: #efefef;
+}
+
+table.chart,
+canvas.chart {
+	float: left;
+	margin: 10px;
+	background: #fff;
+}
+
+canvas,
+table.chart,
+table.chart td,
+table.chart th {
+	border-collapse: collapse;
+	border: 1px solid #cfcfcf;
+}
+
+table.chart td,
+table.chart th {
+	text-align: center;
+}
+
+table.chart {
+	width: 500px;
+	height: 350px;
+}
+
+canvas.chart.hover {
+	cursor: pointer !important;
+}
+
+
+
+table.chart:first-child tbody tr:nth-child(1) {
+	border-top: 5px solid #0000ff;
+}
+
+table.chart:first-child tbody tr:nth-child(2) {
+	border-top: 5px solid #ff0000;
+}
+
+table.chart:first-child tbody tr:nth-child(3) {
+	border-top: 5px solid #008000;
+}
+
+table.chart:first-child tbody tr:nth-child(4) {
+	border-top: 5px solid #ffa500;
+}
+
+table.chart:first-child tbody tr:nth-child(5) {
+	border-top: 5px solid #ffff00;
+}
+
+
+
+table.chart.left td:nth-child(2) {
+	border-top: 5px solid #0000ff;
+}
+
+table.chart.left td:nth-child(3) {
+	border-top: 5px solid #ff0000;
+}
+
+table.chart.left td:nth-child(4) {
+	border-top: 5px solid #008000;
+}
+
+table.chart.left td:nth-child(5) {
+	border-top: 5px solid #ffa500;
+}
